@@ -18,10 +18,6 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-	│   ├── 
-    │   ├── 
-    │   ├── 
-    │   └── 
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
