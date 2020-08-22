@@ -47,3 +47,4 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+Generated with [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/index.html).
