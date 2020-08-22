@@ -1,3 +1,5 @@
+# %load src/data/get_data.py
+
 import pandas as pd
 import numpy as np
 
@@ -53,6 +55,12 @@ def get_current_data_germany():
         full_list.append(each_dict['attributes'])
 
     pd_full_list=pd.DataFrame(full_list)
+    
+    # save data into csv file
+    directory = 'data/raw/NPGEO'
+    if not os.path.exists(directory):
+        os.mkdir(directory)
+        
     pd_full_list.to_csv('data/raw/NPGEO/GER_state_data.csv',sep=';')
     print('Number of rows for regional Germany: '+str(pd_full_list.shape[0]))
     

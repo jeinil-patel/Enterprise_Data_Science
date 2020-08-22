@@ -1,3 +1,5 @@
+# %load ../src/data/get_world_population.py
+
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -81,6 +83,8 @@ def world_population():
                 pop[each] = 5000000 # randowm number for the unkonwn country
                 
     df_population = pd.DataFrame([pop]).T.rename(columns={0:'population'})
+    
+    df_population.to_csv('../data/processed/world_population.csv',sep=';')
     
     return df_population, country_list
 
