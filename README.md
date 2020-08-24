@@ -3,8 +3,11 @@ Data exploration and visualization of COVID-19 datasets.
 
 ## Dashboards
 1. Virus spread and doubling rate for individual country
+
 ![dashboard_1](https://github.com/jeinil-patel/Enterprise_Data_Science/blob/master/reports/dashboards/dashboard_confirmed_cases.png)
+
 2. SIR model - infection and recovery rate for individual country
+
 ![dashboard_2](https://github.com/jeinil-patel/Enterprise_Data_Science/blob/master/reports/dashboards/dashboard_SIR.png)
 
 ## Project Organization
