@@ -1,8 +1,13 @@
 # Enterprise_Data_Science
 Data exploration and visualization of COVID-19 datasets.
 
-Project Organization
---------------------
+## Dashboards
+1. Virus spread and doubling rate for individual country
+![dashboard_1](https://github.com/jeinil-patel/Enterprise_Data_Science/blob/master/reports/dashboards/dashboard_confirmed_cases.png)
+2. SIR model - infection and recovery rate for individual country
+![dashboard_2](https://github.com/jeinil-patel/Enterprise_Data_Science/blob/master/reports/dashboards/dashboard_SIR.png)
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -45,6 +50,7 @@ Project Organization
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    ├── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+	└── video.mp4          <- expalination of final dashboards
 
 Generated with [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/index.html).
